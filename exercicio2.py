@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
+n = 3.14159
 
-a = int(input())
-b = int(input())
+raio = float(input())
 
-PROD = a * b
+area = n * (raio * raio)
 
-print('PROD =', PROD)
+print('A={:.4f}'.format(area))
